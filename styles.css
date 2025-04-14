@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #9c9c9c;
+}
+
+#welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vw;
+  color: blue;
+}
+
+#subText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5 vw;
+  color: rgb(18, 39, 223);
+}
+
+nav {
+  display: grid;
+  align-content: center;
+}
