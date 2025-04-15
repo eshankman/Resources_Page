@@ -34,3 +34,17 @@ body {
     color: lightblue;
     font-weight: bold;
   }
+
+  .buildOut {
+      display: grid;
+      align-content: center;
+      justify-content: center;
+      margin-top: 6em;
+      color: white;
+    }
+
+    .instructions {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  
+    }

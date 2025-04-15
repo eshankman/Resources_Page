@@ -8,7 +8,7 @@ body {
     display: grid;
     align-content: center;
     justify-content: center;
-    padding: 0.5em;
+    padding: 2em;
     border-radius: 14em;
   }
   
@@ -34,3 +34,13 @@ body {
     color: lightblue;
     font-weight: bold;
   }
+
+  .build {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    margin-top: 12em;
+    color: white;
+  }
+
+ 

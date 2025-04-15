@@ -11,18 +11,30 @@ body {
   font-size: 3vw;
   color: white;
   opacity: 0;
-  animation: fadeInSlow 5s ease-in 1 1s;
+  animation: fadeInSlow 7s ease-in 1 1s;
   animation-fill-mode: forwards;
 }
 
+
+
+
 @keyframes fadeInSlow {
+from {
+  opacity: 0;
+}
+to {
+  opacity: 1;
+}
+}
+
+/* @keyframes spin {
   from {
-    opacity: 0;
+    transform: rotateY(0deg);
   }
   to {
-    opacity: 1;
+    transform: rotateY(360deg);
   }
-}
+} */
 
 #subText {
   display: flex;
@@ -36,7 +48,7 @@ nav {
   display: grid;
   align-content: center;
   justify-content: center;
-  padding: 0.5em;
+  padding: 2em;
   border-radius: 14em;
 }
 
@@ -75,22 +87,24 @@ color: lightslategray;
 
 }
 
-@keyframes spin {
-  from {
-    transform: rotateY(0deg);
-  }
-  to {
-    transform: rotateY(360deg);
-  }
-}
 
 .logo {
   display: flex;
   width: 15rem;
   align-items: center;
   justify-content: center;
-  animation: spin 2s linear 2;
-  transform-style: preserver-3d;
+  opacity: 0;
+  animation: fadeInSlow 14s ease-in 1 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInSlow {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .logo-wrapper {
