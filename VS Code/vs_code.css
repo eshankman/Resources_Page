@@ -46,6 +46,11 @@ body {
 
 .text {
     font-size: 1.1em;
+    color: slategrey;
+}
+
+#howSnippet {
+  margin-left: 2.6em;
 }
 
 .title {
