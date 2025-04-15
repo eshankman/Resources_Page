@@ -5,13 +5,23 @@ body {
 }
 
 #welcome {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
+  display: block;
+  padding: .5em;
   font-size: 3vw;
   color: white;
-  transform-origin: 0deg;
-  
+  opacity: 0;
+  animation: fadeInSlow 5s ease-in 1 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInSlow {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 #subText {

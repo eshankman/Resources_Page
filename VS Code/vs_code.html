@@ -4,11 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VS Code</title>
+    <link rel="stylesheet" href="/VS Code/vs_code.css" />
+    <link rel="icon" href="/EsLogo16x16.png" type="image/png" />
 </head>
 <body>
+  <header>
+    <nav>
+      <ul>
+        <li><span><a href = '/index.html'>Home</a></span></li>
+        <li><span><a href = ''>JavaScript</a></span></li>
+        <li><span><a href = ''>HTML</a></span></li>
+        <li><span><a href = ''>CSS</a></span></li>
+        <li><span><a href = '/VS Code/vs_code.html'>VS Code</a></span></li>
+        <li><span><a href = ''>Git/GitHub</a></span></li>
+        <li><span><a href = ''>Documentation</a></span></li>
+      </ul>
+    </nav>
+  </header>
+</head>
+<body>
+        <section id = 'intro'>
+            <h3 id = 'introHeader'>VS Code</h3>
+            <p class = 'text'>The premiere IDE (Integrated Development Environment) and the preferred method of coding for the majority of the software development community.</p>
+        </section>
+
+
     <h1 class = 'title'>My Favorite Extensions</h1>
 
-    <table>
+    <table class = 'table'>
         <thead>
             <tr>
                 <th>Name</th>
@@ -26,7 +49,6 @@
                 <td>Auto Rename Tag</td>
                 <td>Automatically rename paired HTML/XML tag</td>
                 <td><a href = 'https://marketplace.visualstudio.com/items/?itemName=formulahendry.auto-rename-tag'>Download</a></td>
-                <td></td> 
             </tr>
             <tr>
                 <td>Better Comments</td>
@@ -37,26 +59,29 @@
                 <td>Image Preview</td>
                 <td>Shows image preview in the gutter and on hover</td>
                 <td><a href = 'https://marketplace.visualstudio.com/items/?itemName=kisstkondoros.vscode-gutter-preview'>Download</a></td>
-                <td></td>
+            </tr>
+            <tr>
+                <td>Lorem Ipsum</td>
+                <td>Generate test text to use when working on projects</td>
+                <td><a href = 'https://marketplace.visualstudio.com/items/?itemName=Tyriar.lorem-ipsum'>Download</a></td>
             </tr>
             <tr>
                 <td>VS Code-PDF</td>
                 <td>Ability to view PDF files in VS Code</td>
                 <td><a href = 'https://marketplace.visualstudio.com/items/?itemName=tomoki1207.pdf'>Download</a></td>
-                <td></td>
             </tr>
-            <tr>
+            <!-- <tr>
                 <td></td>
                 <td></td>
                 <td></td>
                 <td></td>
-            </tr>
+            </tr> -->
         </tbody>
     </table>
 
 
-    <h3>Essential Extensions</h3>
-    <table>
+    <h3 class = 'title'>Essential Extensions</h3>
+    <table class = 'table'>
         <thead>
             <tr>
                 <th>Name</th>
@@ -69,33 +94,93 @@
                 <td>Code Runner</td>
                 <td>Run code snippet or code file for multiple languages</td>
                 <td><a href = 'https://marketplace.visualstudio.com/items/?itemName=formulahendry.code-runner'>Download</a></td>
-                <td></td>
             </tr>
             <tr>
                 <td>ES7 React-Snippets</td>
                 <td>JavaScript and React/Redux snippets in ES7+ with Babel plugin features</td>
                 <td><a href = 'https://marketplace.visualstudio.com/items/?itemName=naqvi.es7-react-snippets'>Download</a></td>
-                <td></td>
             </tr>
             <tr>
                 <td>ESLint</td>
-                <td>Integrates ESLint JavaScript into VS Code.</td>
+                <td>Code and Rule editor for VS Code <strong>(Mandatory Usage)</strong></td>
                 <td><a href = 'https://marketplace.visualstudio.com/items/?itemName=dbaeumer.vscode-eslint'>Download</a></td>
-                <td></td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>Live Preview</td>
+                <td>An extension that hosts a local server for you to preview your web projects on</td>
+                <td><a href = 'https://marketplace.visualstudio.com/items/?itemName=ms-vscode.live-server'>Download</a></td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>Live Server</td>
+                <td>Launch a local development server with live reload feature for static & dynamic pages</td>
+                <td><a href = 'https://marketplace.visualstudio.com/items/?itemName=ritwickdey.LiveServer'>Download</a></td>
+            </tr>
+            <tr>
+                <td>Live Share</td>
+                <td>Real-time collaborative development from the comfort of your favorite tools</td>
+                <td><a href = 'https://marketplace.visualstudio.com/items/?itemName=MS-vsliveshare.vsliveshare'>Download</a></td>
+            </tr>
+            <tr>
+                <td>Postman</td>
+                <td>Postman enables you to develop and test your APIs in Postman directly from VS Code</td>
+                <td><a href = 'https://marketplace.visualstudio.com/items/?itemName=Postman.postman-for-vscode'>Download</a></td>
+            </tr>
+            <tr>
+                <td>Quokka</td>
+                <td>A developer productivity tool for viewing runtime values in your IDE next to your code</td>
+                <td><a href = 'https://marketplace.visualstudio.com/items/?itemName=WallabyJs.quokka-vscode'>Download</a></td>
+            </tr>
+            <tr>
+                <td>Quoakka Statusbar Buttons</td>
+                <td>Adds buttons to the status bar in Visual Studio Code (VSC) to control Quokka</td>
+                <td><a href = 'https://marketplace.visualstudio.com/items/?itemName=sketchbuch.vsc-quokka-statusbar'>Download</a></td>
+            </tr>
+            <tr>
+                <td>Prettier</td>
+                <td>An opinionated code formatter enforcing strict condtions through formatting and wrapping your code</td>
+                <td><a href = 'https://marketplace.visualstudio.com/items/?itemName=esbenp.prettier-vscode'>Download</a></td>
             </tr>
         </tbody>
     </table>
+
+    <section class = 'snippets'>
+        <h4 class = 'title'>Useful Code Snippets</h4>
+    <table class = 'table'>
+         <thead>
+             <tr>
+                 <th>Snippet</th>
+                 <th>Description</th>
+                <th>Code</th>
+                </tr>
+        </thead>
+        <tbody>
+             <tr>
+               <td>Console Log</td>
+               <td></td>
+               <td></td>
+            </tr>
+            <tr>
+                <td>Console Log (string)</td>
+                <td></td>
+                <td></td>
+             </tr>
+             <tr>
+                <td>Function</td>
+                <td></td>
+                <td></td>
+             </tr>
+             <tr>
+                <td>Arrow Function</td>
+                <td></td>
+                <td></td>
+             </tr>
+             <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+             </tr>
+            </tbody>
+        </table>
+    </section>
 </body>
 </html>
