@@ -75,12 +75,22 @@ color: lightslategray;
 
 }
 
+@keyframes spin {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
 .logo {
   display: flex;
   width: 15rem;
   align-items: center;
   justify-content: center;
-
+  animation: spin 2s linear;
+  transform-style: preserver-3d;
 }
 
 .logo-wrapper {
@@ -88,4 +98,5 @@ color: lightslategray;
   justify-content: center;
   align-items: center;
   height: 15rem;
+  perspective: 62.5em;
 }
