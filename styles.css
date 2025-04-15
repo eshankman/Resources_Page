@@ -1,26 +1,81 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #9c9c9c;
+  background-color: #071224;
 }
 
 #welcome {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 10vw;
-  color: blue;
+  font-size: 3vw;
+  color: white;
+  transform-origin: 0deg;
+  
 }
 
 #subText {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 5 vw;
-  color: rgb(18, 39, 223);
+  font-size: 1.25vw;
+  color: white;
 }
 
 nav {
   display: grid;
   align-content: center;
+  justify-content: center;
+  padding: 0.5em;
+  border-radius: 14em;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0; 
+  margin: 0;
+  display: flex; 
+  justify-content: space-around; 
+}
+
+nav li {
+  display: inline; 
+}
+
+nav a {
+  text-decoration: none; 
+  color: grey; 
+  padding: 1em 1.5em;
+}
+
+nav a:hover {
+  color: lightblue;
+  font-weight: bold;
+}
+
+.intro {
+display: flex;
+justify-content: center;
+color: lightslategray;
+
+}
+
+.title {
+  display: flex;
+
+}
+
+.logo {
+  display: flex;
+  width: 15rem;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.logo-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15rem;
 }
