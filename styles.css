@@ -89,7 +89,7 @@ color: lightslategray;
   width: 15rem;
   align-items: center;
   justify-content: center;
-  animation: spin 2s linear;
+  animation: spin 2s linear 2;
   transform-style: preserver-3d;
 }
 
