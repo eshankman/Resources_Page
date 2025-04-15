@@ -85,7 +85,6 @@ body {
 /* This will highlight the row */
   .table tr:hover {
     background-color: hsl(216, 41%, 18%);
-    font-weight: bold;
   }
   
   a {

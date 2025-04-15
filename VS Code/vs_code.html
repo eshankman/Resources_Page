@@ -158,22 +158,51 @@
              <tr>
                <td>Console Log</td>
                <td>Shortcut to auto-complete console.log</td>
-               <td></td>
+               <td><pre><code>
+                &quot;Console.log&quot;: {
+                  &quot;prefix&quot;: &quot;log&quot;,
+                  &quot;body&quot;: &quot;console.log(${1});&quot;,
+                  &quot;description&quot;: &quot;Console Log&quot;
+              }</code></pre></td>
+              }</code></pre></td>
             </tr>
             <tr>
                 <td>Console Log (string)</td>
                 <td>Shortcut to auto-complete console.log strings</td>
-                <td></td>
+                <td><pre><code>
+                    &quot;Console.log for strings&quot;: {
+                      &quot;prefix&quot;: &quot;cls&quot;,
+                      &quot;body&quot;: &quot;console.log(&quot;${1}&quot;);&quot;,
+                      &quot;description&quot;: &quot;Console Log&quot;
+                  }</code></pre></td>
+                  }</code></pre></td>
              </tr>
              <tr>
                 <td>Function</td>
-                <td></td>
-                <td></td>
+                <td>This shortcut writes your whole function syntax.<br>All you have to do is keep tabbing over after filling out the section</br></td>
+                <td><pre><code>
+                    &quot;function&quot;: {
+                        &quot;prefix&quot;: &quot;fun&quot;,
+                        &quot;body&quot;: [
+                            &quot;function ${1}(${2}) {&quot;,
+                            &quot;\t${3}&quot;,
+                            &quot;\treturn ${4};&quot;,
+                            &quot;}&quot;
+                        ],
+                        &quot;description&quot;: &quot;function declaration&quot;
+                    },
+                </code></pre></td>
              </tr>
              <tr>
                 <td>Arrow Function</td>
                 <td>Arrow Function Syntax</td>
-                <td></td>
+                <td><pre><code>
+                    &quot;Arrow&quot;: {
+                        &quot;prefix&quot;: &quot;af&quot;,
+                        &quot;body&quot;: &quot; (${1}) => {${2}}&quot;,
+                        &quot;description&quot;: &quot;arrow function syntax&quot;
+                    }
+                </code></pre></td>
              </tr>
              <tr>
                 <td></td>
