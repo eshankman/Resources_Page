@@ -48,3 +48,44 @@ body {
       grid-template-columns: 1fr 1fr;
   
     }
+
+    .table {
+      width: 90%;
+      margin: 30px auto;
+      border-collapse: collapse;
+      background-color: #0d1b2a;
+      color: #e0e0e0;
+      border: 1px solid #1f2f40;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    }
+    
+    .table th, .table td {
+      padding: 12px 18px;
+      border: 1px solid #1f2f40;
+      text-align: left;
+    }
+    
+    .table th {
+      background-color: #112d4e;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    
+    .table tr:nth-child(even) {
+      background-color: #0a1828;
+    }
+    
+  /* This will highlight the row */
+    .table tr:hover {
+      background-color: hsl(216, 41%, 18%);
+    }
+    
+    a {
+      color: #00bfff;
+      text-decoration: none;
+    }
+    
+    a:hover {
+      text-decoration: underline;
+    }
+  
